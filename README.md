@@ -12,4 +12,5 @@ You can create this structure automaticly doing a backup of other folder that cr
 
 ### To solve this problem you need to write in the backupFile the next lines:
 /mnt/c/Users/Oscar/Desktop/folder Personal/Documents/Personal_Folder <= creates the folder structure
+
 /mnt/c/Users/Oscar/Desktop/file.txt Personal/Documents/file.txt <= then backups the file
