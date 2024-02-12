@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define destination directories
-backup_dir="write/backupFolder"
+backup_dir="./.backup" # write your backup folder
 
 # Date for backup (optional, for organizing backups)
 dBackup=$(date +"%Y%m%d")
@@ -53,7 +53,7 @@ while IFS=' ' read -r path name; do
     # Use $path and $name in your commands
     # For example:
     backup "$path" "$name"
-done < "write/backupFile"
+done < "./backupFileExample" # the absolute path of your backup file
 
 
 # End of script
