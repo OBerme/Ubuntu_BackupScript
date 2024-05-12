@@ -8,7 +8,7 @@ Imagine that you want to backup the file, and also you will rename this file lik
 /mnt/c/Users/Oscar/Desktop/file.txt Personal/Documents/file.txt
 
 First you need to create the folder structure of the backup file, I mean create first $backupFolder/Personal/Documents/ and then backup the file. 
-You can create this structure automaticly doing a backup of other folder that creates the folder structure. 
+You can create this structure automatically doing a backup of other folder that creates the folder structure. 
 
 ### To solve this problem you need to write in the backupFile the next lines:
 /mnt/c/Users/Oscar/Desktop/folder Personal/Documents/Personal_Folder <= creates the folder structure
